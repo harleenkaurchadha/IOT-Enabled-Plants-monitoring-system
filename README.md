@@ -1,10 +1,17 @@
 # IOT-Enabled-Plants-monitoring-system
 
+This project has been designed to help people monitor different parameters regarding plants or crops anywhere using website where the values of neccessary parameters will be shown i.e the sensor readings for current time . This system when integrated with any plant or crop system gives you the detail regarding the fllowing:<br>
+1.<b> Soil moisture level</b> :This will give the current value of moisture content in the soil to determine whether there is a need to irrigate the soil or not and if it is so we will get an alert through email that and we can immediately irrigate them by deploying a submersible pump into the water tank.<br>
+2.<b>Temperature</b> :This will give the current value of temperature conditions prevailing there. Moreover when temperature exceeds a certain threshold value we will be alerted via email and can turn on the fan employed there by pressing the button on our website from remote location also.<br>
+3.Also the current water level in the irrigation tank is measured with the help of ultrasonic sensor employed at the top of tank and we will be alerted if the tank value goes below the threshold so that we can refill that.<br>
 
-The project attempted to monitor parameters associated with plants and crops such as <br>
-1. soil moisture level<br>
-2. temperature of surrounding<br>
-3. water level in the irrigation tank
+Any person can login to the web app using his / her credentials and see the current sensor readings or give command to the actuators present at plants site. A person is also notified when the readings of any sensor touch the alert level set by the user.
+<br>
+Components used for this project : 
+1.<br> Arduino Mega
+2. <br>ESP8266-01 ( Wifi Module : used AT Firmware )
+3. <br>Soil moisture sensor(YL-69)
+4.<br>Ultrasonic sensor(HCSR04)
+5.<br>Temperature sensor(LM-35)
 
-and upload the same to a cloud database from where the verified user after logging in to his account can check the sensor values at any time and from any place and based on these readings the user can then turn on/off the actuators such as pump for plant irrigation , fan to lower the temperature for plants and additionally can alert the user on his email id giving the status of extreme conditions which user should be notified to tackle them and hence can update the owner of the plantation regarding the same.<br>
-Microcontrollers used for this project-Arduino Mega and ESP8266-01 WIfI chip with AT command firmware
+
