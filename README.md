@@ -3,7 +3,7 @@
 This project has been designed to help people monitor different parameters regarding plants or crops anywhere using website where the values of neccessary parameters will be shown i.e the sensor readings for current time . This system when integrated with any plant or crop system gives you the detail regarding the fllowing:<br>
 1.<b> Soil moisture level</b> :This will give the current value of moisture content in the soil to determine whether there is a need to irrigate the soil or not and if it is so we will get an alert through email that and we can immediately irrigate them by deploying a submersible pump into the water tank.<br>
 2.<b>Temperature</b> :This will give the current value of temperature conditions prevailing there. Moreover when temperature exceeds a certain threshold value we will be alerted via email and can turn on the fan employed there by pressing the button on our website from remote location also.<br>
-3.Also the current water level in the irrigation tank is measured with the help of ultrasonic sensor employed at the top of tank and we will be alerted if the tank value goes below the threshold so that we can refill that.<br>
+3.<b>Irrigation tank Level</b>this will give the value of water level in the irrigation tank which is measured with the help of ultrasonic sensor employed at the top of tank and we will be alerted if the tank value goes below the threshold so that we can refill that.<br>
 
 Any person can login to the web app using his / her credentials and see the current sensor readings or give command to the actuators present at plants site. A person is also notified when the readings of any sensor touch the alert level set by the user.
 <br>
