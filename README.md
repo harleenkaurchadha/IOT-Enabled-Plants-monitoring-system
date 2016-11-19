@@ -8,10 +8,10 @@ This project has been designed to help people monitor different parameters regar
 Any person can login to the web app using his / her credentials and see the current sensor readings or give command to the actuators present at plants site. A person is also notified when the readings of any sensor touch the alert level set by the user.
 <br>
 Components used for this project : 
-1.<br> Arduino Mega
-2. <br>ESP8266-01 ( Wifi Module : used AT Firmware )
-3. <br>Soil moisture sensor(YL-69)
-4.<br>Ultrasonic sensor(HCSR04)
-5.<br>Temperature sensor(LM-35)
+<br>1. Arduino Mega
+<br>2. ESP8266-01 ( Wifi Module : used AT Firmware )
+<br>3. Soil moisture sensor(YL-69)
+<br>4. Ultrasonic sensor(HCSR04)
+<br>5. Temperature sensor(LM-35)
 
 
