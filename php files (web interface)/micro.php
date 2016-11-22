@@ -8,32 +8,14 @@
 
 <?php 
 
+/*the mail will be sent when the following criteria is met –
 
-//set the range as follows -- 
-// moisture 230.wet-1023.dry (0-100)  70%-itna wet   email<40
-// ultrasonic 11.empty-2.full  email>10.5
-//temp 20-45     email>34                       
-
-
-
+1. Value of temperature sensor exceeds 33
+2. Value of ultrasonic sensor is more than 9.9
+3. Value of soil moisture sensor is less than 40                   
 /*
 
-?te=1&mo=1&ul=0
-
-mo=250-1023
-temp-2
-ul-2
-
-db columns - id,te_sensor,te_value,mo_sensor,mo_value,ul_sensor,ul_value,light_value
-iot_db
-iot_db_table
-iotdb_user
-iotdb_pass123word
-
-
-range validation will be done in finalized version
-
-*/
+//?te=1&mo=1&ul=0
 
 
 $con = mysqli_connect("localhost","iotdb_user","iotdb_pass123word","iot_db");
