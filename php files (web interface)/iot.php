@@ -30,25 +30,6 @@ else
 
 
 
-				//$query = "select * from orders where username='".$username."'" ;
-				//$result = performQuery($query) ;
-				/*
-				$numOfRows = mysqli_num_rows($result) ;
-
-				for($i=0;$i<$numOfRows;$i++)
-				{
-								$rows = mysqli_fetch_assoc($result) ;
-								$orderid = $rows['orderid'] ;
-								$date = $rows['date'] ;        
-								$amount = $rows['amount'] ;
-								$status = $rows['order_status'] ;
-								$shipPincode = $rows['ship_pincode'] ;
-								$shipContact = $rows['ship_contact'] ;
-				*/
-
-
-
-
 				?>
 
 				<!DOCTYPE html>
