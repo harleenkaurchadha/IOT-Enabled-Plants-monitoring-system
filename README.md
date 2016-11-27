@@ -13,11 +13,11 @@ Components used for this project :
 <br>3. Soil moisture sensor(YL-69)
 <br>4. Ultrasonic sensor(HCSR04)
 <br>5. Temperature sensor(LM-35)
-<br>
-<b>WEB APP</b><br>
+<br><br>
+<b>WEB APP</b><br><br>
 <img src="https://cloud.githubusercontent.com/assets/23056679/20647438/3e975fbe-b4ba-11e6-9f91-58e3f7cd7eed.png">
-<br><img src=""><br>
-<b>ELECTRONIC CIRCUIT</b><br>
+<br><br><img src=""><br><br>
+<b>ELECTRONIC CIRCUIT</b><br><br>
 <img src="">
 
 
