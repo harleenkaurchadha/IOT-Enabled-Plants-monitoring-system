@@ -1,6 +1,6 @@
 //SSID + KEY
-const char SSID_ESP[] = /*"MotoG3 4069";"KARMAN SINGH";/*"HaRrleen's iPhone"*/"karan";
-const char SSID_PASS[] =/*"gurleenzzz";"parvinder";/*"123456789"*/"9810596666";
+const char SSID_ESP[] = "YOUR SSID";
+const char SSID_PASS[] ="YOUR PASSWORD";
 
 // URLs
 String URL_webhost = "GET http://iot.hique.in/micro.php?te=";
