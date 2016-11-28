@@ -93,12 +93,10 @@ if( isset($te) && isset($mo) && isset($ul) )
 
 	if( $te>33 && $te_mail == 0 )
 	{
-		$to      = 'anmolkaurchadha@gmail.com,newsletter.updates@yahoo.com,gagansuriandroid@gmail.com';
+		$to      = 'yourmail@gmail.com';
 		$subject = 'Alert - High Temperature';
 		$message = 'Please switch on the fan to reduce the temperature.';
-		//$headers = 'From: webmaster@example.com' . "\r\n" .
-		//    'Reply-To: webmaster@example.com' . "\r\n" .
-		//    'X-Mailer: PHP/' . phpversion();
+		
 
 		mail($to, $subject, $message);
 		$te_mail = 1 ;
@@ -125,13 +123,10 @@ if( isset($te) && isset($mo) && isset($ul) )
 
 	if($mo<40 && $mo_mail == 0)
 	{
-		$to      = 'anmolkaurchadha@gmail.com,newsletter.updates@yahoo.com,gagansuriandroid@gmail.com';
+		$to      = 'yourmail@gmail.com';
 		$subject = 'Alert - Low Moisture';
 		$message = 'Please switch on the sprinkler to increase moisture content.';
-		//$headers = 'From: webmaster@example.com' . "\r\n" .
-		//    'Reply-To: webmaster@example.com' . "\r\n" .
-		//    'X-Mailer: PHP/' . phpversion();
-
+		
 		mail($to, $subject, $message);
 		$mo_mail = 1 ;
 		$query = "UPDATE iot_db_table
@@ -160,13 +155,10 @@ if( isset($te) && isset($mo) && isset($ul) )
 
 	if($ul>9.9 && $ul_mail == 0)
 	{
-		$to      = 'anmolkaurchadha@gmail.com,newsletter.updates@yahoo.com,gagansuriandroid@gmail.com';
+		$to      = 'yourmail@gmail.com';
 		$subject = 'Alert - Low Water Level';
 		$message = 'Please refill the water container.';
-		//$headers = 'From: webmaster@example.com' . "\r\n" .
-		//    'Reply-To: webmaster@example.com' . "\r\n" .
-		//    'X-Mailer: PHP/' . phpversion();
-
+		
 		mail($to, $subject, $message);
 		$ul_mail = 1 ;
 		$query = "UPDATE iot_db_table
