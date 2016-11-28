@@ -27,12 +27,7 @@ if(isset($_POST['light']))
 if( isset($fan) && isset($motor) && isset($light) )
 {
  
-	// Perform queries 
-		//mysqli_query($con,"SELECT * FROM Persons");
-
-		//$query = "INSERT INTO iot_db_table (id,te_sensor,mo_sensor,ul_sensor)
-		//VALUES ('1','.$te.','.$mo.','.$ul.')" ;
-
+	
 		$query = 		" UPDATE iot_db_table
 						SET 
 						te_value=$fan, 
