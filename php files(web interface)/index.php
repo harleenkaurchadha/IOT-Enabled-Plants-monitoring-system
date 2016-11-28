@@ -42,9 +42,6 @@ if( isset($_POST['username']) && isset($_POST['password']))
 
 
 <!DOCTYPE html>
-<!--[if IE 8]> <html lang="en" class="ie8"> <![endif]-->
-<!--[if IE 9]> <html lang="en" class="ie9"> <![endif]-->
-<!--[if !IE]><!--> <html lang="en"> <!--<![endif]-->
 <head>
 	<title>Login</title>
 
@@ -157,8 +154,6 @@ if( isset($_POST['username']) && isset($_POST['password']))
 
 
 <!DOCTYPE html>
-<!--[if IE 8]> <html lang="en" class="ie8"> <![endif]-->
-<!--[if IE 9]> <html lang="en" class="ie9"> <![endif]-->
 <!--[if !IE]><!--> <html lang="en"> <!--<![endif]-->
 <head>
 	<title>Login</title>
