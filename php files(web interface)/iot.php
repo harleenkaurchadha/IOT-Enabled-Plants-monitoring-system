@@ -30,30 +30,9 @@ else
 
 
 
-				//$query = "select * from orders where username='".$username."'" ;
-				//$result = performQuery($query) ;
-				/*
-				$numOfRows = mysqli_num_rows($result) ;
-
-				for($i=0;$i<$numOfRows;$i++)
-				{
-								$rows = mysqli_fetch_assoc($result) ;
-								$orderid = $rows['orderid'] ;
-								$date = $rows['date'] ;        
-								$amount = $rows['amount'] ;
-								$status = $rows['order_status'] ;
-								$shipPincode = $rows['ship_pincode'] ;
-								$shipContact = $rows['ship_contact'] ;
-				*/
-
-
-
-
 				?>
 
 				<!DOCTYPE html>
-				<!--[if IE 8]> <html lang="en" class="ie8"> <![endif]-->
-				<!--[if IE 9]> <html lang="en" class="ie9"> <![endif]-->
 				<!--[if !IE]><!--> <html lang="en"> <!--<![endif]-->
 				<head>
 					<title>Automated & IOT Enabled Plant Monitoring</title>
